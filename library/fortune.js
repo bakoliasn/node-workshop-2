@@ -5,5 +5,5 @@ function fortune() {
 }
 
 module.exports = {
-    getFortune: fortune
+    getFortune: fortune,
 };
