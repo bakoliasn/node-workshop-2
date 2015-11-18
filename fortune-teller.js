@@ -1,2 +1,5 @@
 var fortune = require('./library/fortune').getFortune;
-fortune();
+
+for(var i = 0; i < process.argv[2]; i++){
+    fortune();
+}
